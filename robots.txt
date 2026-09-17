@@ -1,0 +1,11 @@
+# ATENCIÓN — este archivo bloquea TODA indexación en buscadores.
+# Es intencional mientras el sitio vive en la URL temporal de Netlify
+# (crearteconsultingnet.netlify.app), para no crear contenido duplicado
+# con crearteconsulting.com cuando se haga el cambio de dominio.
+#
+# ANTES DE PUBLICAR EN crearteconsulting.com DE FORMA DEFINITIVA:
+# borra las dos líneas de abajo (o cambia Disallow: / por Disallow: /aviso-legal/ etc.
+# si solo quieres bloquear páginas legales), y añade la línea Sitemap.
+
+User-agent: *
+Disallow: /
