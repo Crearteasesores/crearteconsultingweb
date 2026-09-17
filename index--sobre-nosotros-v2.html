@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre nosotros | Crearte Consulting</title>
+<meta name="description" content="Crearte Consulting nace en 2018 de la unión entre la experiencia tecnológica de Héctor Delgado y los más de 25 años de Susana González en dirección de recursos humanos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/site.css">
+<style>
+  .page-hero{padding:72px 0 56px;border-bottom:1px solid var(--line);}
+  .page-hero h1{font-size:clamp(2rem,4vw,2.8rem);max-width:24ch;}
+  .page-hero p{margin-top:18px;font-size:1.1rem;color:var(--text-muted);max-width:60ch;}
+
+  .about-photo{padding:0 0 88px;}
+  .about-photo-frame{aspect-ratio:21/9;overflow:hidden;position:relative;}
+  .about-photo-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+  .about-credit{font-size:0.78rem;color:var(--text-muted);margin-top:10px;}
+
+  .about-section{padding:72px 0;border-bottom:1px solid var(--line);}
+  .about-section:nth-child(even){background:var(--paper-raised);}
+  .about-section-head{max-width:60ch;margin-bottom:20px;}
+  .about-section-head h2{font-size:1.6rem;}
+  .about-section p{color:var(--text-muted);margin:0 0 16px;max-width:64ch;line-height:1.7;}
+  .about-section strong{color:var(--ink);}
+
+  .founders-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:12px;}
+  @media (max-width:820px){.founders-grid{grid-template-columns:1fr;gap:40px;}}
+  .founder-card h3{font-family:"Fraunces",serif;font-size:1.4rem;margin-bottom:4px;}
+  .founder-card .role{font-size:0.85rem;color:var(--brass);margin-bottom:16px;}
+  .founder-card p{color:var(--text-muted);font-size:0.95rem;margin:0 0 14px;line-height:1.7;}
+  .founder-card ul{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:8px;}
+  .founder-card li{font-size:0.85rem;color:var(--ink-soft);position:relative;padding-left:16px;}
+  .founder-card li::before{content:"";position:absolute;left:0;top:0.6em;width:6px;height:1px;background:var(--slate);}
+
+  .values-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:32px;}
+  @media (max-width:700px){.values-grid{grid-template-columns:1fr;}}
+  .value-item{background:var(--paper);padding:28px;}
+  .value-item h3{font-size:1.02rem;margin-bottom:8px;}
+  .value-item p{font-size:0.9rem;color:var(--text-muted);margin:0;}
+
+  .about-cta-band{padding:80px 0;background:var(--ink);color:var(--paper);text-align:left;}
+  .about-cta-band h2{color:var(--paper);font-size:1.8rem;max-width:22ch;}
+  .about-cta-band p{color:#B9BFCF;margin-top:14px;max-width:48ch;}
+  .about-cta-band .cta{margin-top:28px;border-color:var(--brass);color:var(--brass);}
+  .about-cta-band .cta:hover,.about-cta-band .cta:focus-visible{background:var(--brass);color:var(--ink);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-row">
+    <a class="logo" href="/">Crearte Consulting</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="/empresas/">Empresas</a></li>
+        <li><a href="/#metodo">Método Crearte</a></li>
+        <li><a href="/#nethunting">Nethunting</a></li>
+        <li><a href="/portal-de-empleo/">Candidatos</a></li>
+        <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
+        <li><a href="/#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="social-icons">
+        <a class="li-icon" href="https://www.linkedin.com/company/crearteconsulting/" target="_blank" rel="noopener" aria-label="Crearte Consulting en LinkedIn" title="Crearte Consulting">
+          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a class="li-icon" href="https://www.linkedin.com/in/hectordelgado/" target="_blank" rel="noopener" aria-label="Héctor Delgado en LinkedIn" title="Héctor Delgado">
+          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a class="li-icon" href="https://www.linkedin.com/in/susanagonzalez-garcia/" target="_blank" rel="noopener" aria-label="Susana González en LinkedIn" title="Susana González">
+          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+      </div>
+      <a class="nav-cta" href="https://calendly.com/crearte-hector-delgado/reunion-con-hector-delgado-crearte-consulting" target="_blank" rel="noopener">Reservar reunión con Héctor</a>
+    </div>
+    <div class="lang-switch">
+      <a href="/sobre-nosotros/" class="active">🇪🇸 ES</a><span>·</span><a href="#">🇬🇧 EN</a><span>·</span><a href="#">🇫🇷 FR</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Nacimos digitales, en un sector que no lo era</h1>
+      <p>Crearte Consulting existe desde 2018, después de mucho tiempo valorando si tenía sentido. Nació de unir dos trayectorias que, sobre el papel, no tenían por qué cruzarse: la tecnología y los recursos humanos.</p>
+    </div>
+  </section>
+
+  <section class="about-photo">
+    <div class="wrap">
+      <div class="about-photo-frame">
+        <img src="../images/hector-susana-oficina-ligera.jpg" alt="Héctor Delgado y Susana González en las oficinas de Crearte Consulting">
+      </div>
+      <p class="about-credit">Héctor Delgado y Susana González, fundadores de Crearte Consulting</p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="wrap">
+      <div class="about-section-head">
+        <h2>Cómo empezó</h2>
+      </div>
+      <p>Antes de fundar Crearte, Héctor y Susana fueron clientes de otras consultoras de selección durante años — y nunca encontraron una que les diera las candidaturas que necesitaban, en el tiempo que las necesitaban. Veían además un mercado ya muy maduro, que pedía a gritos un reciclaje. Por eso Crearte Consulting nace dentro de ese mercado maduro, en una época en la que todo era ya digital — y por eso nace digital desde el primer día, ampliando negocio poco a poco, asegurando cada línea antes de abrir la siguiente.</p>
+      <p>Antes de fundar Crearte, <strong>Héctor Delgado</strong> acumulaba ya cerca de 25 años de trayectoria fuera de la compañía. Licenciado en Administración y Dirección de Empresas, completó después un máster en Recursos Humanos por la Cámara de Comercio de Madrid, un máster en Marketing Digital por ESIC, y más adelante un máster en Marca Personal. Vivió 20 años entre Francia y Bélgica antes de aterrizar en España, donde trabajó como director de tecnología y director de proyectos en compañías como Banco Santander, Accenture y BNP Paribas.</p>
+      <p>Fue entonces cuando decidió emprender: fundó una startup de tecnología y marketing digital que terminó vendiendo a una multinacional tecnológica. Esa experiencia le convenció de que la tecnología tenía mucho que aportar a un sector tan tradicional como el de los recursos humanos — y de que quería seguir emprendiendo.</p>
+      <p>Ahí es donde entra <strong>Susana González</strong>. Psicóloga de formación, con máster en Dirección de Recursos Humanos y Organización por ESIC, máster en Comunicación Interna y Externa por la Universidad Complutense de Madrid, posgrado en Relaciones Laborales por el Colegio Oficial de Graduados Sociales de Madrid, y también máster en Marca Personal. Susana llevaba 25 años dedicada por completo a los recursos humanos: hasta 2018, toda su trayectoria se había construido en puestos de responsabilidad y dirección, formando parte de comités de dirección con reporte a sedes centrales, fondos de inversión y propietarios de empresas de perfiles muy variados. Ha pasado por todas las áreas que existen dentro de RRHH — desarrollo, compliance, igualdad, prevención de riesgos laborales, administración de personal, formación, selección.</p>
+      <p>De la unión de ese conocimiento tecnológico y esa experiencia profunda en personas nació <strong>Crearte Consulting</strong>, estructurada desde el principio en cuatro líneas: Selección, Headhunting, Outsourcing e Interim Management. La empleabilidad llegó después, y de forma muy natural: los propios clientes de Crearte Consulting, cuando sus directivos o responsables querían dar un paso profesional, pedían ayuda para acompañar ese cambio. De ahí nació <strong>Crearte Match</strong>, centrada en la empleabilidad, dentro del mismo grupo.</p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="wrap">
+      <div class="about-section-head">
+        <h2>Los fundadores</h2>
+      </div>
+      <div class="founders-grid">
+        <div class="founder-card">
+          <h3>Héctor Delgado</h3>
+          <p class="role">Cofundador</p>
+          <p>Casi 35 años de trayectoria, con una base tecnológica y de gestión de proyectos forjada en multinacionales antes de emprender por primera vez.</p>
+          <ul>
+            <li>Licenciado en Administración y Dirección de Empresas</li>
+            <li>Máster en Dirección de Recursos Humanos — Cámara de Comercio de Madrid</li>
+            <li>Máster en Marketing Digital — ESIC</li>
+            <li>Máster en Marca Personal</li>
+            <li>20 años entre Francia y Bélgica</li>
+            <li>Banco Santander, Accenture, BNP Paribas</li>
+          </ul>
+        </div>
+        <div class="founder-card">
+          <h3>Susana González</h3>
+          <p class="role">Cofundadora</p>
+          <p>25 años dedicados por completo a los recursos humanos, en puestos de dirección que han tocado prácticamente todas las áreas de la función.</p>
+          <ul>
+            <li>Licenciada en Psicología</li>
+            <li>Máster en Dirección de Recursos Humanos y Organización — ESIC</li>
+            <li>Máster en Comunicación Interna y Externa — Universidad Complutense de Madrid</li>
+            <li>Posgrado en Relaciones Laborales — Colegio Oficial de Graduados Sociales de Madrid</li>
+            <li>Máster en Marca Personal</li>
+            <li>Comités de dirección con reporte a HQ, fondos de inversión y propiedad</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="wrap">
+      <div class="about-section-head">
+        <h2>Cómo trabajamos</h2>
+        <p>Todas nuestras marcas nacen digitales, desde un conocimiento profundo de las personas y de los recursos humanos.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-item">
+          <h3>Cuidado con los candidatos</h3>
+          <p>Mucho cuidado en qué hacemos y cómo lo hacemos, con quien busca trabajo o quiere cambiar de rumbo profesional.</p>
+        </div>
+        <div class="value-item">
+          <h3>Orientación al cliente</h3>
+          <p>Tanto si el cliente es una empresa (B2B) como una persona (B2C), el servicio se construye alrededor de lo que necesita.</p>
+        </div>
+        <div class="value-item">
+          <h3>Tecnología con criterio</h3>
+          <p>Potenciamos y mejoramos cada proceso con la inteligencia artificial que consideramos adecuada — nunca como sustituto del criterio humano.</p>
+        </div>
+        <div class="value-item">
+          <h3>Ambiciosos, pero realistas</h3>
+          <p>Por naturaleza y por origen: queremos crecer, pero sin prometer lo que no podemos cumplir.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="wrap">
+      <div class="about-section-head">
+        <h2>El equipo, más allá de los fundadores</h2>
+        <p>Hemos ampliado la compañía con personas de distintos niveles y áreas de conocimiento, y con partners tecnológicos expertos en sus materias: inteligencia artificial, marca personal, marketing, y headhunters especializados por sector.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-cta-band">
+    <div class="wrap">
+      <h2>¿Quieres conocernos mejor?</h2>
+      <p>Reserva una reunión directa con Héctor, o escríbenos si lo prefieres.</p>
+      <a class="cta" href="https://calendly.com/crearte-hector-delgado/reunion-con-hector-delgado-crearte-consulting" target="_blank" rel="noopener">Reservar reunión con Héctor</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="/">Crearte Consulting</a>
+        <p>Consultora de selección, headhunting, outsourcing e interim management en España.</p>
+      </div>
+      <div>
+        <h4>Empresas</h4>
+        <ul>
+          <li><a href="/empresas/seleccion/">Selección</a></li>
+          <li><a href="/empresas/headhunting/">Headhunting</a></li>
+          <li><a href="/empresas/outsourcing/">Outsourcing</a></li>
+          <li><a href="/empresas/interim-management/">Interim management</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Candidatos</h4>
+        <ul>
+          <li><a href="/portal-de-empleo/">Portal de empleo</a></li>
+          <li><a href="https://creartematch.com">Crearte Match</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compañía</h4>
+        <ul>
+          <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
+          <li><a href="/#podcast">Podcast</a></li>
+          <li><a href="/recursos/">Recursos e informes</a></li>
+          <li><a href="/#contacto">Contacto</a></li>
+          <li><a href="#" title="Pendiente: URL real de LinkedIn">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Crearte Consulting</span>
+      <div class="footer-legal">
+        <a href="../aviso-legal/">Aviso legal</a>
+        <a href="../politica-privacidad/">Privacidad</a>
+        <a href="../politica-cookies/">Cookies</a>
+      </div>
+      <span>Madrid · España</span>
+    </div>
+  </div>
+</footer>
+
+  <script src="../js/cookies.js" defer></script>
+  <script src="../js/chat-widget.js" defer></script>
+</body>
+</html>
